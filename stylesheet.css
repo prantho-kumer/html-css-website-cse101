@@ -1,0 +1,730 @@
+*{
+    box-sizing: border-box;
+  }
+  
+body, html {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif, 'times new roman';
+    scroll-behavior: smooth;
+  }
+
+.logo{
+    margin-top: -15px;
+    
+}
+.navbar{
+    position: fixed;
+    opacity: 1;
+    width: 100%;
+    top: 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin-top:0;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    opacity: 1;
+    background-color: #f2f6ff;
+
+    top: 0;
+    height: 40px;
+    bottom: 0;
+  }
+  
+  .navbar li {
+    padding-right: 50px;
+    float: left;
+    
+  }
+  
+  .navbar li a {
+    display: block;
+    color: #453a66b8;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+   
+  .navbar li a:hover{
+      color: rgba(31, 181, 226, 0.699);
+  }
+  .navbar li a:active{
+      color: aqua;
+      background-color: #361696b8;
+      border-radius: 50px;
+  }
+
+  /* search container style */
+  .navbar .search-container {
+    float: right;
+    
+  }
+  
+  .navbar input[type=text] {
+    padding: 10px;
+
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #ffffff;
+    border-radius: 20px 0px 0px 20px;
+  }
+  
+  .navbar .search-container button {
+    float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-radius: 0px 20px 20px 0px;
+  border-left: none; 
+  cursor: pointer;
+  }
+
+  .navbar .search-container button:hover {
+    background: #0b7dda;
+    
+  }
+
+/* nav style end */
+
+
+.homebnnrimg{
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;  
+    
+}
+.bnnrtxt{
+    color: white;
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -800px;
+}
+.bnnrtxt h1{
+    font-weight: bold;
+    font-size: 48px;
+    padding-bottom: 20px;
+    color: #ffffff;
+  
+}
+.bnnrtxt p{
+    font-weight: 100;
+    font-size: 21px;
+    line-height: 30px;
+}
+
+#bnnrbttn{
+    padding: 50px;
+    margin: 0 auto;
+
+}
+
+.bttn1 {    
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color:white;
+    background-color: #ff8a73;
+    border: 3px solid #ff8a73;
+    border-radius: 50px;
+    padding: 15px 40px;
+    margin-right: 10px;
+    transition: .5s ease;
+}
+.bttn2{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: white;
+    color: #5580ff;
+    border: 3px solid #5580ff;
+    border-radius: 50px;
+    padding: 15px 40px;
+    margin-left: 10px;
+    transition: .5s ease;
+}
+
+.bttn1:hover{
+    background-color: white;
+    color: #ff8a73;
+    transition: .5s ease;
+    
+    }
+.bttn2:hover{
+    color:white;
+    background-color: #5580ff;
+    transition: .5s ease;
+}
+/* end of banner css */
+
+
+.servicetable{
+    height: 400px;
+    margin-top:400px;    
+    background-color:white;
+   }
+
+.servicetable ul {
+    list-style: none;
+}
+.servicetable li {
+    background: url(images/service_icon_40.png) no-repeat left top ;
+    padding-left: 70px;
+    margin-top: 0px;
+    width: 300px;
+    color: white;
+}
+.servicetable h3{
+    color: #57468b;
+}
+
+.servicetable p{
+    color: #2c2c2c;
+}
+.servicetable table{
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 0px;
+}
+.servicetable td{
+    padding-left: 0px;
+    padding-right: 10px;
+    border-radius: 20px;
+    transition: .5s ease;
+}
+
+.servicetable td:hover{
+    background-color: #c6efff;
+    transition: .5s ease;
+    transform: translate(-2%, -2%);
+    box-shadow: 3px 3px 20px 3px #afb7ca;
+
+}
+.servicetxt{
+    text-align: center;
+    padding-top:35px;
+    color:  #57468b;
+    font-size: 38px;
+    font-weight: 600;
+}
+/* End of service table css */
+
+/* tech we use part start*/
+.techweuse{
+height: 400px;
+margin-top: 50px;
+background-color: #dde6fad0;
+}
+
+.techweuse table{
+    margin:0 auto;
+    
+}
+.techweusetxt{
+    padding-top: 50px;
+    text-align: center;
+    color:  #57468b;    
+}
+.techweuse ul li:first-child{
+    list-style-type: none;
+    text-indent: -30px;
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+.techweuse ul li{
+    padding: 5px;
+    color: #6d6a6a;
+    font-size: 18px;
+}
+.techweuse ul{
+    list-style: none;
+}
+.techweuse ul li{
+    list-style-image: url(images/rsz_tick_icon.png)
+}
+.programming li:first-child{
+    color: #9168f1;
+    list-style: none;
+}
+.research li:first-child{
+    color: #5f82ec;
+    list-style: none;
+}
+
+.development li:first-child{
+    color: #ffb5a6;
+    list-style: none;
+}
+    
+.techweuse table td{
+    padding-left: 300px;
+}
+.techweuse table td:first-child{
+    padding: 0px;
+}
+/* End of tech we use part */
+
+/* about us starts */
+.aboutus{
+   background-color: #dde6fad0; 
+}
+
+.aboutus h1{
+    text-align: center;
+    color: #57468b;
+    padding-top: 50px;
+}
+.aboutus table{
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.aboutus table td{
+    padding-left: 40px;
+    text-align: center;
+}
+.aboutus table td:first-child{
+    padding: 0px;
+}
+.teamimg{
+    border: 3px solid white;
+    border-radius: 50%;   
+}
+
+/* Images hover text */
+.teamcontainer {
+    position: relative;   
+  }
+  
+   .teamimg {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+   
+  .teamhovertmtxt {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);  
+  }
+  
+  .teamcontainer:hover .teamimg {
+    opacity: 0.4;
+  }
+  
+  .teamcontainer:hover .teamhovertmtxt {
+    opacity: 1;
+  }
+  
+  .teamhovertmtxt h2{
+      color: #57468b;
+  }
+  .teamhovertmtxt p {
+    color: #20173dc4;
+    font-size: 14px;
+    margin-top: -30px;
+  }
+  /* team style end here */
+
+  /* our history starts from here */
+  .ourhis{
+      background-color: rgba(233, 158, 252, 0.144);
+  }
+  
+  .ourhis {
+    text-align: center;
+    color: #57468b;
+    padding-top: 25px;
+}
+.h11, .h12{
+    color: #494949;
+    font-weight: 400;
+}
+.ourhis p{
+    color: grey;
+}
+.ourhis table{
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.ourhis table td{
+    padding-left:50px;
+    padding: 20px;
+}
+.ourhis table .ourhistxt{
+    text-align: justify;
+    width: 800px;
+    vertical-align: top;
+    
+}
+.ourhistxt h1:nth-child(3){
+    padding-top: 50px;
+}
+/* Our history finish here */
+/* portfolio section starts from here */
+
+.portfolio h1{
+    text-align: center;
+    color: #57468b;
+    padding-top: 25px;
+}
+.portfolio table{
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.portfolio table td{
+    vertical-align: top left;
+    padding: 20px;
+    opacity: .7;
+}
+.portfolio table td:hover{
+    background-color:rgba(199, 227, 243, 0.164);
+    border-radius: 20px;
+    opacity: 1;
+    color: rgb(122, 80, 80);
+}
+.portfolio table td h3{
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+/* Ending of portfolio part */
+.testimonial{
+    background-color: #bddefa;
+    margin-top: -25px;
+}
+.testimonial h1 {
+    text-align: center;
+    color: #57468b;
+    padding-top: 25px;
+}
+.testimonial p{ 
+    text-align: center;
+    color: #5b566b;
+}
+.testimonial table{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.testimonial table td{
+    padding-left: 50px;
+}
+.testimonial table td:first-child{
+    padding-left: 0px;
+}
+#testimiddle{
+    background-color: #74d5dd;
+    color: white;
+}
+
+.textimnialalldata{
+    width: 300px;
+    border: 2px solid rgba(128, 128, 128, 0.616);
+    border-radius: 15px;
+    background-color: white;
+    color: grey;
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+    line-height: 28px;
+    transition: .5s ease;    
+}
+.textimnialalldata:hover{
+    transition: .5s ease;
+    transform: translate(-2%, -2%); 
+    box-shadow: 3px 3px 50px 5px rgb(221, 220, 240);
+}
+.tstimnltxt h3{
+    color: black;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+.tstimnltxt p{
+    color: grey;
+    font-weight:  thin;
+    margin-top: -40px;
+}
+.tstimnltxt img{
+    border-radius: 50px;
+    border: 1px solid grey;
+    margin-top: 70px;
+    float: left;
+}
+/* End of testimonial part style */
+
+/* Starts of meet our clients part style */
+.meetouramzcient table{
+    margin: auto;
+    padding-top: 25px;
+}
+.meetouramzcient h1{
+    text-align: center;
+    color: #57468b;
+    padding-top: 25px;
+}
+.meetouramzcient p{
+    text-align: center;
+    color: #5b566b;
+}
+.meetouramzcient table td{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    opacity: .7;   
+    transition: .5s ease;
+}
+
+.meetouramzcient table td:hover{
+    background-color: white;
+    box-shadow: 3px 3px 10px 10px rgb(220, 243, 247);  
+    opacity: 1;
+    transition: .5s ease;
+}
+/* End of meet our clients part styling */
+/* contact us parts styling starts from here */
+.contactus{
+    padding-bottom: 50px;
+    background-color: #ffffff;
+    background-image: url(images/contact_us_image.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.contactus h1{
+    text-align:center;
+    color: #57468b;
+    padding-top: 25px;
+}
+.contactttopsmltxt{
+    text-align: center;
+    color: #5b566b;
+    margin-top: 0px;
+}
+.contactus table{
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color:#74d4ddd3 ;
+    border-radius: 20px;    
+}
+
+.forminput{    
+    padding: 10px;
+    font-size: 16px;
+    padding-right: 0px;
+}
+#usermessage{
+    resize: vertical;   
+    padding: 10px;
+    width: 400px;
+}
+label{
+    padding-right: 5px;
+    vertical-align: middle;
+    font-weight: 600;
+    color: #57468b;
+    font-size: 18px;
+}
+.textarealabel{
+    vertical-align: top;
+}
+#contactfrommail{
+    margin-left: 36px;
+    width: 400px;
+}
+#namef{
+    margin-left: 24px;
+    width: 400px;
+}
+#formsubmibttn{
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 15px 50px;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 25px;
+    background-color: #2196F3;
+    border: 3px solid #2196F3;
+    color: white;
+    transition: .5s ease;
+}
+#formsubmibttn:hover{
+    background-color: white;
+    box-shadow: 3px 3px 20px 5px  #2196F3;
+    color:  #2196F3;
+    transition: .5s ease;
+}
+/* end of contact us part */
+/* Footer style starts from here */
+.footer{
+    
+    background-color: #57468b;
+    color: white;
+}
+.footer table{
+    margin: auto;
+}
+.footer table ul{
+    list-style: none;
+    
+}
+.footer table td{
+    padding-left: 200px;
+}
+.footer table td:first-child{
+    padding-left: 0px;
+}
+.footer table ul li a{
+    color: white;
+    text-decoration: none;
+}
+.footer table ul h2{
+    margin-top: 40px;
+}
+.footermenu li{
+    padding: 5px;
+}
+.adreess h3{
+    margin-left: 20px;
+}
+.adreess li{
+    padding: 10px;
+}
+
+.contactimg{
+    width: 35px;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+.newsletter input[type=text] {
+    padding: 15px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 280px;
+    background: #ffffff;
+    border-radius: 20px 0px 0px 20px;
+  }
+  
+  .newsletter button {
+      text-align: center;
+    float: left;
+  width: 120px;;
+  padding: 15px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-radius: 0px 20px 20px 0px;
+  border-left: none; 
+  cursor: pointer;
+  }
+
+  .newsletter button:hover {
+    background: white;
+    color: #2196F3;
+  }
+  .footersocialpart{
+      text-align: center;
+      margin-top: 120px;
+      padding-bottom: 25px;
+      
+  }
+  .footersocialpart img{
+      margin-top: -20px;
+      margin-left: -20px;
+      padding-right: 30px;
+      width: 70px;
+  }
+  /* end of footer */
+  /* Copyright text starts */
+  .copyrighttxt{
+      height: 50px;
+      margin-top: -25px;
+      background-color: #343351;
+      color: white;
+  }
+  .copymaintxt{
+     text-align: center;
+     font-weight: 100;
+     font-size: 14px;
+  }
+  #gototopbttn{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 99;
+    font-size: 18px;
+    border: 3px solid #2196F3;
+    outline: none;
+    background-color: #2196F3;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: .5s ease;
+    opacity: .7;
+        }
+    #gototopbttn:hover{
+            color:#2196F3;
+            transition: .5s ease;
+            transform: translate(0%, -10%); 
+            opacity: 1;
+        }
+  /* And finally the end. :) */
+  /* Resposive code for footer and banner */
+  @media only screen and (max-width: 1450px) {
+    .bnnrtxt h1 {    
+            font-weight: bold;
+            font-size: 38px;
+            margin-top: 200px;
+            color: #red;       
+        }
+  }
+
+  @media only screen and (max-width: 1450px) {
+    .footer table td {
+            padding-left: 30px;
+              }
+  }
+  @media only screen and (max-width: 1450px) {
+    .footer table td:first-child {    
+        padding-left: 0px;          
+    }
+  }
+  @media only screen and (max-width: 1450px) {
+    .newsletter input[type=text] {    
+      width: 200px;
+      font-size: 14px;          
+    }
+  }
+  
+  @media only screen and (max-width: 1450px) {
+    .newsletter button {
+      width: 100px;
+      font-size: 14px;          
+    }
+  }
